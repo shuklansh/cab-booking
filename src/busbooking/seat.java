@@ -230,7 +230,7 @@ public class seat extends javax.swing.JFrame {
         String journeystring= txtJourney.getText();
         int journeykm = Integer.parseInt(journeystring.trim());
         int journeyafterfstkm= journeykm-1;
-        int bill=70+(journeyafterfstkm*50);
+        int bill=70+(journeyafterfstkm*50);// 70 for 1st km then 50 for subsequent kms travelled in cab.
         String payment;
         payment = String.valueOf(bill);
         
